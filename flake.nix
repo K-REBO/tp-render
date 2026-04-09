@@ -14,8 +14,7 @@
           pname = "tp-render";
           version = "0.1.0";
           src = ./.;
-          # `nix build` 後に `nix hash path ./node_modules` で更新する
-          npmDepsHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
+          npmDepsHash = "sha256-Tsk736xf65r8xgrgPmXXDQ2tuEAmZmYHNHCAPbs3cJo=";
           buildPhase = ''
             npm run build
           '';
